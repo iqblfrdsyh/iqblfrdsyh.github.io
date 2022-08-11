@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@400&display=swap');
+
+/* ALL Version */
+html {
+  scroll-behavior: smooth;
+}
+
+span {
+  text-decoration: underline;
+  color: #7971ea;
+}
+
+body {
+  background-color: #EFF6EE;
+  font-family: Poppins;
+}
+
+p {
+  color: #484d6d;
+}
+
+h2 {
+  color: #484d6d;
+  font-family: Nunito;
+  text-decoration: underline;
+}
+
+h5 {
+  color: #484d6d;
+}
+
+.bi-moon {
+  color: black;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  width: 50px;
+  color: #eeeeee;
+}
+
+.nav-link {
+  margin-right: 10px;
+  color: #eeeeee;
+}
+
+/* AKHIR BAGIAN NAVBAR */
+
+/* ALERT STYLE */
+.heading {
+  background-color: #7971ea;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+
+#showalert {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background-color: rgba(108, 97, 122, 0.822);
+}
+
+#box {
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-left: 400px;
+  height: 170px;
+  width: 500px;
+}
+
+.content {
+  margin-top: 30px;
+}
+
+#confirmBtn {
+  height: 28px;
+  width: 80px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 400px;
+}
+
+#box {
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#box p {
+  color: black;
+  font-size: 16px;
+}
+
+#confirmBtn {
+  background-color: #7971ea;
+  color: #fff;
+}
+
+#confirmBtn:hover {
+  opacity: 0.8;
+}
+
+@media (min-width: 992px) {
+
+  #showalert {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: rgba(108, 97, 122, 0.822);
+  }
+
+  #box {
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 400px;
+    height: 170px;
+    width: 500px;
+  }
+
+  .content {
+    margin-top: 30px;
+  }
+
+  #confirmBtn {
+    height: 28px;
+    width: 80px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  #showalert {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: rgba(108, 97, 122, 0.822);
+  }
+
+  #box {
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 45px;
+    height: 170px;
+    width: 300px;
+  }
+
+  .content {
+    margin-top: 30px;
+  }
+
+  #confirmBtn {
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: auto;
+  }
+}
+
+/* JUMBOTRON */
+@media (min-width: 992px) {
+
+  /* .nav-link:hover::after {
+    content: '';
+    border-bottom: 3px solid black;
+    display: block;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  } */
+  .jumbotron {
+    float: left;
+    justify-content: left;
+    margin-top: 100px;
+  }
+
+  .display-4 {
+    margin-top: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #484d6d;
+  }
+
+  .auto-input {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #d47aeb;
+  }
+
+  .jumbotron img {
+    width: 65%;
+    height: auto;
+    float: right;
+    margin-top: auto;
+  }
+
+  .btn:hover {
+    background-color: salmon;
+  }
+
+  .btn {
+    background-color: transparent;
+    color: grey;
+    border: 2px solid #484d6d;
+  }
+
+  .sosmed {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .bi-instagram {
+    color: #3f729b;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .bi-whatsapp {
+    color: green;
+  }
+
+  .bi-twitter {
+    color: #1da1f2;
+  }
+}
+
+/* AKHIR BAGIAN JUMBOTRON */
+
+/* ABOUT */
+@media (min-width: 992px) {
+  .judul1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+/* AKHIR BAGIAN ABOUT */
+
+/* SKILLS */
+@media (min-width: 992px) {
+  .skill {
+    color: #d47aeb;
+  }
+
+  .skills {
+    margin-top: 45px;
+  }
+
+  .myskill {
+    margin-top: 365px;
+    padding-top: 2rem;
+  }
+
+  .static {
+    margin-left: 50px;
+  }
+}
+
+/* AKHIR BAGIAN SKILLS */
+
+/* Galery */
+.galery img {
+  /* width: 350px; */
+  margin-left: 5px;
+}
+
+.carousel-caption {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.galery {
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+/* PROJECT */
+@media (min-width: 992px) {
+  .project1 {
+    color: #d47aeb;
+  }
+
+  .judul2 {
+    margin-top: 365px;
+  }
+}
+
+/* AKHIR BAGIAN PROJECT */
+
+/* Footer */
+.footer {
+  background-color: transparent !important;
+  text-align: center;
+  margin-top: 150px;
+  padding-top: 100px;
+  padding-bottom: 45px;
+}
+
+.nama {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nama:hover {
+  color: #484d6d;
+}
+
+/* scroll top */
+
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  background-color: rgb(107, 90, 210);
+  opacity: 0.8;
+  padding: 0 0.3rem;
+  border-radius: 0.4rem;
+  z-index: 10;
+  transition: 0.4s;
+}
+
+.scrollup:hover {
+  background-color: rgb(88, 72, 173);
+}
+
+.bi-arrow-up {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.show-scroll {
+  bottom: 5rem;
+}
+
+/* end */
+
+/* Animasi */
+.effect-wrap .effect1 {
+  margin-top: 50px;
+  margin-left: 967px;
+}
+
+.effect-wrap .effect2 {
+  margin-top: -275px;
+  margin-left: 85px;
+}
+
+
+/* Animasi kotak */
+.effect1 {
+  width: 30px;
+  height: 30px;
+  border: 4px solid #7971ea;
+  right: 15%;
+  bottom: 8%;
+  animation: kotak 9s linear infinite;
+}
+
+@keyframes kotak {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* effect 2 */
+.effect2 {
+  width: 30px;
+  height: 30px;
+  border: 4px solid #7971ea;
+  right: 15%;
+  bottom: 8%;
+  animation: kotak2 9s linear infinite;
+}
+
+@keyframes kotak2 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+
+  .effect-wrap .effect1,
+  .effect2 {
+    display: none;
+  }
+}
+
+/* LIGHT MODE */
+.bg-lightmode {
+  background-color: #18191a;
+}
+
+.bg-lightmode P {
+  color: #eeeeee;
+}
+
+.bg-lightmode h1 {
+  color: #eeeeee;
+}
+
+.bg-lightmode h2 {
+  color: #eeeeee;
+}
+
+.bg-lightmode h5 {
+  color: #eeeeee;
+}
+
+.bg-lightmode .navbar-brand {
+  color: #eeeeee;
+}
+
+.bg-lightmode .navbar-nav a {
+  color: #eeeeee !important;
+}
+
+.bg-lightmode .navbar {
+  background-color: #f5f9e9;
+}
+
+.bg-lightmode .navbar .dropdown-item {
+  color: #444 !important;
+}
+
+.bg-lightmode .bi-brightness-high {
+  color: #eeeeee;
+}
+
+.bg-lightmode .btn {
+  color: white;
+  border: 2px solid #eeeeee;
+}
+
+.bg-lightmode .btn:hover {
+  background-color: #eeeeee;
+  color: #484d6d;
+}
+
+.bg-lightmode .bi-instagram {
+  color: #3f729b;
+}
+
+.bg-lightmode .nama {
+  color: #eeeeee;
+}
+
+.bg-lightmode .nama:hover {
+  color: #484d6d;
+}
+
+.bg-lightmode .navbar-toggler-icon {
+  background-color: #eeeeee !important;
+}
+
+.bg-lightmode .navbar-toggler {
+  background-color: #eeeeee !important;
+}
+
+.bg-darkMode .bi-brightness-high {
+  cursor: pointer;
+}
+
+.bi-moon-stars-fill {
+  cursor: pointer;
+}
+
+.bi-lightmode .galery {
+  box-shadow: 2px 2px 2px 2px white;
+}
+
+/* MOBILE VER */
+@media (max-width: 992px) {
+
+  /* NAVBAR */
+  .navbar {
+    background-color: transparent !important;
+  }
+
+  .navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    width: 50px;
+  }
+
+  /* JUMBOTRON */
+  .jumbotron {
+    margin-top: 130px;
+  }
+
+  .display-4 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+
+  .auto-input {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #d47aeb;
+  }
+
+  .foto1 {
+    width: 10%;
+    z-index: -1;
+    margin-top: -1500px;
+  }
+
+  .btn {
+    background-color: rgb(255, 192, 140);
+    color: black !important;
+    border: 2px solid #484d6d;
+  }
+
+  h1 {
+    color: #484d6d;
+  }
+
+  h2 {
+    color: #484d6d;
+  }
+
+  h5 {
+    color: #484d6d;
+  }
+
+  p {
+    color: #484d6d;
+  }
+
+  .bi-instagram {
+    color: #3f729b;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .bi-whatsapp {
+    color: green;
+  }
+
+  .bi-twitter {
+    color: #1da1f2;
+  }
+
+  /* ABOUT */
+  .judul1 {
+    margin-top: 285px;
+    padding-top: -100px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .us {
+    color: rgb(107, 90, 210);
+    text-decoration: underline;
+  }
+
+  /* Animasi kotak */
+  .effect1,
+  .effect2 {
+    z-index: -1;
+    position: relative;
+  }
+
+  /* SKILLS */
+  .skill {
+    color: #d47aeb;
+  }
+
+  .skills {
+    margin-top: 45px;
+  }
+
+  .myskill {
+    margin-top: 230px;
+    padding-top: 2rem;
+  }
+
+  .static {
+    margin-top: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /* PROJECT */
+  .project1 {
+    color: #d47aeb;
+  }
+
+  .judul2 {
+    margin-top: 365px;
+  }
+
+  /* SHOW SCROLL */
+  .scrollup {
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: rgb(107, 90, 210);
+    opacity: 0.8;
+    padding: 0 0.3rem;
+    border-radius: 0.4rem;
+    z-index: 10;
+    transition: 0.4s;
+  }
+
+  .scrollup:hover {
+    background-color: rgb(88, 72, 173);
+  }
+
+  .bi-arrow-up {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+  .show-scroll {
+    bottom: 5rem;
+  }
+}

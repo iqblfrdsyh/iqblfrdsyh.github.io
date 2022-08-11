@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>M Iqbal Ferdiansyah</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Nunito+Sans&family=Poppins&display=swap"
+    rel="stylesheet" />
+
+</head id="home">
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-md">
+    <div class="container">
+      <a class="navbar-brand" href="#">M Iqbal Ferdiansyah</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link bi bi-house-door" href="#home"> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bi bi-person-fill" href="#about"> About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bi bi-code-slash" href="#skills"> Skills</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Other
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#" onclick="alert()">Project</a></li>
+              <li><a class="dropdown-item" href="galery.html">Galery</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- dark mode light mode  -->
+        <i class="bi bi-moon-stars-fill" id="moon-button"></i>
+        <i class="bi " id="sun-button"></i>
+      </div>
+    </div>
+  </nav>
+  <!-- Akhir -->
+
+  <!-- Alert -->
+  <div id="showalert">
+    <div id="box">
+      <div class="heading">
+        Attention!
+      </div>
+      <div class="content">
+        <p>Halaman Ini Belum jadi.</p>
+        <button type="button" id="confirmBtn" onclick="hidealert()">Ok</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Jumbotron -->
+  <div class="container">
+    <div class="jumbotron text-white">
+      <div class="row">
+        <div class="col home">
+          <h1 class="display-4">Hi Everyone <br />
+            <span class="auto-input"></span>
+          </h1>
+          <p>Student | 11th grade</p>
+          <a href="https://wa.me/6289671542333" class="btn btn-md">Contact Me</a>
+        </div>
+        <div class="col-md-6 mb-5">
+          <img src="img/img1.png" alt="profile" class="img img-fluid foto1" />
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-2 sosmed">
+        <a href="https://wa.me/6289671542333"> <i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.instagram.com/iqblfrdsyh"> <i class="bi bi-instagram"></i></a>
+        <a href="https://twitter.com/iqblfrdsyh?t=qMn5yLRImSBbwhqtrUOC5Q&s=09"> <i class="bi bi-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+  <!-- Akhir -->
+
+  <!-- About -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col text-white mb-3 judul1">
+          <h2>About <span>Me</span></h2>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center">
+        <div class="col-md-4 text-white">
+          <p>Hi, my name is M Iqbal Ferdiansyah, I am 16 years old. My status is a grade 10 student, I study at SMK
+            Yadika
+            Soreang and I majored in RPL (Software Engineering). Why did I major in
+            this?</p>
+        </div>
+        <div class="col-md-4 text-white">
+          <p>First, because my dream is to become a programmer / web developer, Second, I am interested in the IT world
+            and third, when I work, the salary is quite large!</p>
+
+        </div>
+      </div>
+      <div class="effect-wrap">
+        <div class="effect1"></div>
+        <div class="effect2"></div>
+        <div class="effect3"></div>
+        <div class="effect4"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Akhir -->
+
+  <!-- Skills -->
+  <div class="container">
+    <div class="row">
+      <div class="col text-white text-center myskill" id="skills">
+        <h2>My <span>Skills</span></h2>
+      </div>
+    </div>
+    <div class="row skills text-white justify-content-center">
+      <div class="card" style="width: 15rem">
+        <img src="img/profil.jpeg" alt="img" />
+      </div>
+      <div class="col-md-6 static">
+        <h5>HTML</h5>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 56.32%" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">57.32%</div>
+        </div>
+        <h5>CSS</h5>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 55.12%" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">55.12%</div>
+        </div>
+        <h5>Bootstrap</h5>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 50.12%" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">50.12%</div>
+        </div>
+        <h5>JavaScript</h5>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 10.21%" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">10.21%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Akhir -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col text-white text-center footer">
+          <p>Copyright &copy; 2022. <a href="https://www.instagram.com/iqblfrdsyh" class="nama">M Iqbal Ferdiansyah.</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Akhir -->
+
+  <!-- Scroll top -->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="bi bi-arrow-up"></i>
+  </a>
+
+  <!-- My Js -->
+  <script src="main.js"></script>
+
+  <!-- JavaScript auto typing -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    let typed = new Typed('.auto-input', {
+      strings: ["I'm M Iqbal F", "I'm 16 y'o"],
+      typeSpeed: 100,
+      backSpeed: 95,
+      loop: true,
+    });
+  </script>
+  <!-- Akhir -->
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>
